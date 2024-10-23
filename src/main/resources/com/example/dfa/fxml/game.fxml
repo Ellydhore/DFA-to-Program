@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1400.0" styleClass="bg" stylesheets="@../css/game.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dfa.fxml_controller.GameController">
+   <center>
+      <AnchorPane prefHeight="750.0" prefWidth="1400.0" stylesheets="@../css/game.css" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="650.0" prefWidth="800.0" styleClass="button-pad-bg2" stylesheets="@../css/game.css" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="25.0">
+               <children>
+                  <AnchorPane prefHeight="620.0" prefWidth="780.0" styleClass="button-pad-bg" stylesheets="@../css/game.css" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0">
+                     <children>
+                        <Pane layoutX="6.0" layoutY="7.0" prefHeight="125.0" prefWidth="125.0" styleClass="button" stylesheets="@../css/game.css" AnchorPane.bottomAnchor="312.0" AnchorPane.leftAnchor="36.0">
+                           <Pane fx:id="btn_srfc_1" layoutX="4.0" layoutY="4.0" prefHeight="100.0" prefWidth="100.0" styleClass="button-surface" stylesheets="@../css/game.css" />
+                        </Pane>
+                        <Pane layoutX="156.0" prefHeight="125.0" prefWidth="125.0" styleClass="button" stylesheets="@../css/game.css" AnchorPane.bottomAnchor="312.0" AnchorPane.leftAnchor="174.0">
+                           <children>
+                              <Pane fx:id="btn_srfc_2" layoutX="4.0" layoutY="4.0" prefHeight="100.0" prefWidth="100.0" styleClass="button-surface" stylesheets="@../css/game.css" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="166.0" layoutY="10.0" prefHeight="125.0" prefWidth="125.0" styleClass="button" stylesheets="@../css/game.css" AnchorPane.bottomAnchor="312.0" AnchorPane.leftAnchor="312.0">
+                           <children>
+                              <Pane fx:id="btn_srfc_3" layoutX="4.0" layoutY="4.0" prefHeight="100.0" prefWidth="100.0" styleClass="button-surface" stylesheets="@../css/game.css" />
+                           </children>
+                        </Pane>
+                        <Pane layoutY="150.0" prefHeight="125.0" prefWidth="125.0" styleClass="button" stylesheets="@../css/game.css" AnchorPane.bottomAnchor="174.0" AnchorPane.leftAnchor="36.0">
+                           <children>
+                              <Pane fx:id="btn_srfc_4" layoutX="4.0" layoutY="4.0" prefHeight="100.0" prefWidth="100.0" styleClass="button-surface" stylesheets="@../css/game.css" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="156.0" layoutY="156.0" prefHeight="125.0" prefWidth="125.0" styleClass="button" stylesheets="@../css/game.css" AnchorPane.bottomAnchor="174.0" AnchorPane.leftAnchor="174.0">
+                           <children>
+                              <Pane fx:id="btn_srfc_5" layoutX="4.0" layoutY="4.0" prefHeight="100.0" prefWidth="100.0" styleClass="button-surface" stylesheets="@../css/game.css" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="286.0" layoutY="166.0" prefHeight="125.0" prefWidth="125.0" styleClass="button" stylesheets="@../css/game.css" AnchorPane.bottomAnchor="174.0" AnchorPane.leftAnchor="312.0">
+                           <children>
+                              <Pane fx:id="btn_srfc_6" layoutX="4.0" layoutY="4.0" prefHeight="100.0" prefWidth="100.0" styleClass="button-surface" stylesheets="@../css/game.css" />
+                           </children>
+                        </Pane>
+                        <Pane layoutY="300.0" prefHeight="125.0" prefWidth="125.0" styleClass="button" stylesheets="@../css/game.css" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="36.0">
+                           <children>
+                              <Pane fx:id="btn_srfc_7" layoutX="4.0" layoutY="4.0" prefHeight="100.0" prefWidth="100.0" styleClass="button-surface" stylesheets="@../css/game.css" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="170.0" layoutY="286.0" prefHeight="125.0" prefWidth="125.0" styleClass="button" stylesheets="@../css/game.css" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="174.0">
+                           <children>
+                              <Pane fx:id="btn_srfc_8" layoutX="4.0" layoutY="4.0" prefHeight="100.0" prefWidth="100.0" styleClass="button-surface" stylesheets="@../css/game.css" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="300.0" layoutY="286.0" prefHeight="125.0" prefWidth="125.0" styleClass="button" stylesheets="@../css/game.css" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="312.0">
+                           <children>
+                              <Pane fx:id="btn_srfc_9" layoutX="4.0" layoutY="4.0" prefHeight="100.0" prefWidth="100.0" styleClass="button-surface" stylesheets="@../css/game.css" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="520.0" layoutY="400.0" styleClass="button2" stylesheets="@../css/game.css">
+                           <children>
+                              <Pane fx:id="btn_validate" styleClass="button-surface2" stylesheets="@../css/game.css">
+                                 <children>
+                                    <Text layoutX="21.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Validate" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="JetBrainsMono NF SemiBold" size="24.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                        <AnchorPane layoutX="37.0" layoutY="46.0" prefHeight="100.0" prefWidth="400.0" styleClass="screen-bg" stylesheets="@../css/game.css">
+                           <children>
+                              <AnchorPane layoutX="8.0" layoutY="8.0" prefHeight="92.0" prefWidth="392.0" styleClass="screen" stylesheets="@../css/game.css">
+                                 <children>
+                                    <Text fx:id="txt_message" layoutX="4.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DFA" textAlignment="RIGHT" wrappingWidth="382.0">
+                                       <font>
+                                          <Font name="Digital-7" size="60.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                        <Circle fx:id="led_indicator" fill="DODGERBLUE" layoutX="720.0" layoutY="60.0" radius="20.0" smooth="false" stroke="BLACK" strokeType="INSIDE" />
+                        <Pane layoutX="500.0" layoutY="185.0" prefHeight="75.0" prefWidth="200.0" styleClass="start-button" stylesheets="@../css/game.css">
+                           <children>
+                              <Pane fx:id="btn_start" prefHeight="60.0" prefWidth="180.0" styleClass="start-button-surface" stylesheets="@../css/game.css">
+                                 <children>
+                                    <Text layoutX="45.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="START" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="JetBrainsMono NF SemiBold" size="30.0" />
+                                       </font>
+                                    </Text>
+                                 </children></Pane>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="500.0" layoutY="280.0" prefHeight="75.0" prefWidth="200.0" styleClass="restart-button" stylesheets="@../css/game.css">
+                           <children>
+                              <Pane fx:id="btn_restart" prefHeight="60.0" prefWidth="180.0" styleClass="restart-button-surface" stylesheets="@../css/game.css">
+                                 <children>
+                                    <Text layoutX="27.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Restart" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="JetBrainsMono NF SemiBold" size="30.0" />
+                                       </font>
+                                    </Text>
+                                 </children></Pane>
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <Rectangle id="door-knob-back-plate" arcHeight="50.0" arcWidth="50.0" fill="DODGERBLUE" height="665.0" layoutX="930.0" layoutY="25.0" stroke="BLACK" strokeType="INSIDE" width="218.0" />
+            <Rectangle id="door-knob-plate" arcHeight="50.0" arcWidth="50.0" fill="DODGERBLUE" height="653.0" layoutX="931.0" layoutY="25.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle id="door-knob-back-plate" arcHeight="50.0" arcWidth="50.0" fill="DODGERBLUE" height="92.0" layoutX="983.0" layoutY="310.0" stroke="BLACK" strokeType="INSIDE" width="321.0" />
+            <Rectangle id="door-knob-plate" arcHeight="50.0" arcWidth="50.0" fill="DODGERBLUE" height="81.0" layoutX="983.0" layoutY="311.0" stroke="BLACK" strokeType="INSIDE" width="312.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,101 @@
+.bg {
+    -fx-background-color: radial-gradient(radius 50%, #fbb301, #e1a100);
+}
+
+.bg2 {
+    -fx-background-color: linear-gradient(to bottom, #b0e0e6, #8cb3b8);
+}
+
+.button-pad-bg {
+    -fx-background-color: #8ba8b7;
+    -fx-background-radius: 10%;
+}
+
+.button-pad-bg2 {
+    -fx-background-color: linear-gradient(to bottom, #6f8692, #4d5d66);
+    -fx-background-radius: 10%;
+}
+
+.button {
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #717585, #383a42);
+    -fx-background-radius: 10%;
+}
+
+.button2 {
+    -fx-pref-width: 180px;
+    -fx-pref-height: 180px;
+    -fx-background-color: linear-gradient(to bottom, #6fb46c, #1c4d1a);
+    -fx-background-radius: 100%;
+}
+
+.button-surface {
+    -fx-background-color: #8c92ac;
+    -fx-background-radius: 10%;
+}
+
+.button-surface2 {
+    -fx-pref-width: 160px;
+    -fx-pref-height: 160px;
+    -fx-background-color: #47c142;
+    -fx-background-radius: 100%;
+}
+
+.start-button {
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #3d5377, #243147);
+    -fx-background-radius: 10 10 10 10;
+}
+
+.start-button-surface {
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #6182bb, #4d6895);
+    -fx-background-radius: 10 10 10 10;
+}
+
+.restart-button {
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #726000, #5b4d00);
+    -fx-background-radius: 10 10 10 10;
+}
+
+.restart-button-surface {
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #ffd700, #e5c100);
+    -fx-background-radius: 10 10 10 10;
+}
+
+.screen {
+    -fx-background-color: linear-gradient(to bottom, #80896f, #a1b4a1);
+    -fx-background-radius: 10;
+}
+
+.screen-bg {
+    -fx-background-color: #595f4d;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.text-font {
+    -fx-font-family: "digital-7"; /* Use the font family you loaded */
+    -fx-font-size: 24px;          /* Set font size */
+}
+
+#led-indicator {
+    -fx-fill: linear-gradient(from 25% 25% to 100% 100%, #b8b8b8, #3e3e40, #313133, #131314);
+    -fx-stroke: linear-gradient(from 25% 25% to 100% 100%, #b8b8b8, #3e3e40, #313133, #131314);
+}
+
+#led-indicator-win {
+    -fx-fill: linear-gradient(from 25% 25% to 100% 100%, #418913, #418913, #346d0f, #1a3607);
+    -fx-stroke: linear-gradient(from 25% 25% to 100% 100%, #b8b8b8, #3e3e40, #313133, #131314);
+}
+
+#led-indicator-lose {
+    -fx-fill: linear-gradient(from 25% 25% to 100% 100%, #800000, #8c1919, #701414, #8c4242);
+    -fx-stroke: linear-gradient(from 25% 25% to 100% 100%, #b8b8b8, #3e3e40, #313133, #131314);
+}
+
+#door-knob-plate {
+    -fx-fill: linear-gradient(from 25% 25% to 100% 100%, #9f9fb5, #3f3f48, #7f7f90, #323239);
+    -fx-stroke: linear-gradient(from 25% 25% to 100% 100%, #9f9fb5, #3f3f48, #7f7f90, #323239);
+}
+
+#door-knob-back-plate {
+     -fx-fill: linear-gradient(from 25% 25% to 100% 100%, #3f3f48, #7f7f90);
+     -fx-stroke: linear-gradient(from 25% 25% to 100% 100%, #3f3f48, #7f7f90);
+ }
