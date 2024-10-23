@@ -5,7 +5,6 @@ import javafx.animation.Timeline;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
-import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
@@ -57,7 +56,6 @@ public class GameController implements Initializable {
         // Load custom font
         loadCustomFont("src/main/resources/com/example/dfa/fonts/digital-7.ttf");
         led_indicator.setId("led-indicator");
-        Scene scene = led_indicator.getScene();
         // Initialize buttons and sounds
         Pane[] buttons = getButtonsArray();
         List<String> imagePaths = getImagePaths();
@@ -150,7 +148,7 @@ public class GameController implements Initializable {
         btn_restart.setOnMouseClicked(event -> {
             buttonPadHandler.clickAnimation(btn_restart, clickSound2);
             led_indicator.setId("led-indicator");
-            resetGame(imagePaths, buttons, txt_message);
+            resetGame(buttons, txt_message);
         });
 
         btn_validate.setOnMouseClicked(event -> {
@@ -238,7 +236,7 @@ public class GameController implements Initializable {
         countdownTimer.play();
     }
 
-    public void resetGame(List<String> imagePaths, Pane[] buttons, Text txt_message) {
+    public void resetGame(Pane[] buttons, Text txt_message) {
         if (countdownTimer != null) {
             countdownTimer.stop();
         }
